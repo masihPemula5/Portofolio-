@@ -1,0 +1,108 @@
+@import 'animate.css';
+
+body{
+  background: #1A1C2C;
+  color: white;
+}
+.warna{
+  color: #09A4FF;
+  
+
+}
+
+.luar{
+ 
+}
+
+.luar img{
+  width: 150px;
+  height: 200px;
+  position: absolute;
+  right: 30%;
+  bottom: 55%;
+  border-radius: 50%;
+  border: 2px solid #00FFFC;
+  box-shadow: 0 2px 20px #00FFFC;
+}
+
+
+
+.Text{
+  position: absolute;
+  bottom: 35%;
+  left: 10%;
+}
+
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.mengetik {
+  color: #00BAFF;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: typing 3.5s steps(40, end),
+             blink-caret .75s step-end infinite; 
+}
+
+.link{
+  position: absolute;
+  bottom: 20%;
+  left: 30%;
+  border-radius: 20px;
+
+}
+
+.link button{
+  color: black;
+  border: none;
+  border-radius: 20px;
+  background: #00F7FF;
+}
+
+.link button:hover{
+  background: transparent;
+  border: 2px solid #00F7FF;
+  color: #00FFF7;
+}
+
+.tex{
+  position: absolute;
+  bottom: 25%;
+  left: 10%;
+  color: silver;
+}
+
+.icon{
+  background: transparent;
+  position: absolute;
+  bottom: -20%;
+  left: 20%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.icon i {
+  font-size: 30px;
+  margin: 10px;
+  color:  #00EDFF;
+}
